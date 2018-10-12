@@ -1,0 +1,56 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+header{
+	border-bottom: 1px solid #dbdbdb;
+	background: #fff;
+	padding: 24px 0;
+}
+header h1{
+	margin: 0;
+}
+.container{
+	margin : 0 auto;
+	width: 900px;
+}
+.card{
+	border: 1px solid #dbdbdb;
+	border-radius: 4px;
+	margin-top:24px;
+	padding	: 16px;
+	background: #ffffff;
+}
+.list-item{
+	border: 1px solid #dbdbdb;
+	border-radius: 4px;
+	margin-top:24px;
+	padding	: 16px;
+	background: #ffffff;
+}
+.list-item:hover{
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
+	border-color: blue;
+}
+.col-8{
+	width: 65.7777%;
+	display: inline-block;
+	vertical-align: top;
+}
+.col-8 p{
+	padding-right: 16px;
+}
+.col-4{
+	width: 33.333%;
+	display: inline-block;
+}
+img{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color: #252525;
+}
+p{
+	line-height: 20px;
+}
